@@ -5,7 +5,10 @@ We have used 6 layers of Resnet-18 and freezed their weights then we will procee
 
 Algorithm:
 
-    $RGB --> Lab color --> L-channel , A&B -channel 
+    RGB --> Lab  color space image --> L-channel , A&B -channel 
                         
     L-channel --> Network --> A' & B' channel
+    
+    L + A'B' --> lab image --> RGB
+    
 Combining L and A'B' to get Lab image then converting it to RGB form

@@ -11,4 +11,3 @@ Algorithm:
     
     L + A'B' --> lab image --> RGB
     
-Combining L and A'B' to get Lab image then converting it to RGB form
